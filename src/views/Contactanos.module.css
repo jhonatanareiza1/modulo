@@ -1,0 +1,59 @@
+.contactanos {
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 0;
+    background: linear-gradient(180deg, #1d014b, #600f96);
+    align-items: center;
+}
+
+.contactanos h2 {
+    color: azure;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 5rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+}
+
+.input {
+    margin-top: 1.5rem;
+    width: 90%;
+    background: none;
+    border: 2px solid #ff8000;
+    height: 2.5rem;
+    margin-bottom: 3rem;
+    color: azure;
+    font-size: 1.2rem;
+}
+
+.textArea {
+    resize: none;
+    margin-top: 1.5rem;
+    width: 90%;
+    height: 18rem;
+    background: none;
+    border: 2px solid #ff8000;
+    color: azure;
+    font-size: 1.2rem;
+}
+
+.formulario label {
+    color: azure;
+    font-size: 1.5rem;
+}
+
+.botonEnviar {
+    background: #ff8000;
+    width: 10rem;
+    height: 4rem;
+    border-radius: 5px;
+    color: azure;
+    font-size: 2rem;
+    border: none;
+    margin-top: 1rem;
+}

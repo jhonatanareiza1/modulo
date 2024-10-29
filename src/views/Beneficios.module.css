@@ -1,0 +1,21 @@
+.beneficios {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #600f96, #1d014b);
+}
+
+.beneficios p {
+    color: azure;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.tituloBeneficios {
+    color: azure;
+    font-size: 2rem;
+    font-weight: 400;
+}

@@ -1,0 +1,29 @@
+.Services {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10rem;
+    align-items: center;
+    background: linear-gradient(180deg, #600f96, #1d014b);
+}
+
+.Services p {
+    color: azure;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.imgPopeye {
+    width: 30rem;
+    padding-bottom: 7rem;
+}
+
+@media (min-width: 800px) {
+    .imgPopeye {
+        width: 60rem;
+    }
+
+    .Services p {
+        font-size: 2.7rem;
+    }
+}

@@ -1,0 +1,33 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #1d014b, #600f96);
+    padding: 4.8rem 2rem 19rem;
+    align-items: center;
+
+}
+
+.tituloContenedor {
+    padding-top: 7rem;
+}
+
+.home p {
+    font-size: 2.5rem;
+    color: azure;
+}
+
+.btnsAccionHome {
+    background-color: darkorange;
+    padding: 1rem;
+    margin-left: 2rem;
+    transition: .3s;
+}
+
+.btnsAccionHome:hover {
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.btnsContenedor {
+    padding-top: 3.5rem;
+}

@@ -1,0 +1,14 @@
+.quienesContenedor {
+    display: flex;
+    flex-direction: column;
+    padding: 9rem 0;
+    background: linear-gradient(180deg, #1d014b, #600f96);
+}
+
+.tituloQuienes {
+    font-size: 3rem;
+    color: azure;
+    font-weight: 300;
+    text-align: center;
+
+}
